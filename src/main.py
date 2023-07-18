@@ -16,7 +16,7 @@ from helpers import (
 # import Python"s standard libraries
 import datetime
 
-DEBUG_MODE = True
+DEBUG_MODE = False
 app = FastAPI(debug=DEBUG_MODE)
 
 # Force error 400 instead of 422
